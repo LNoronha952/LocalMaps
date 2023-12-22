@@ -1,0 +1,9 @@
+{
+    "type": "sqlite",
+    "database": "database/app.sqlite",
+    "synchronize": true,
+    "logging": false,
+    "entities": ["src/entity/**/*.ts"],
+    "migration": ["src/migration/**/*.ts"],
+    "subscribers": ["src/subscriber/**/*.ts"]
+}
